@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1a365d;    /* Deep blue - Main brand color */
+  --color-secondary: #3b82f6;  /* Bright blue - Call to action */
+  --color-accent: #dbeafe;     /* Light blue - Accents */
+  --color-neutral: #f8fafc;    /* Light gray - Background */
+  --color-dark: #1e293b;       /* Dark blue-gray - Text */
+  --color-light: #ffffff;      /* White - Content backgrounds */
+}
+
+body {
+  background-color: var(--color-neutral);
+  color: var(--color-dark);
+}
